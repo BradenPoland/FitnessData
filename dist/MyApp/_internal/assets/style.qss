@@ -1,7 +1,0 @@
-QMainWindow {
-    background-color: #1e1e1e;
-}
-QPushButton {
-    padding: 8px;
-    font-size: 14px;
-}
