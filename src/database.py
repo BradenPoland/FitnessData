@@ -9,9 +9,9 @@ def get_connection():
 def init_db():
     with get_connection() as conn:
         conn.execute("""
-            CREATE TABLE IF NOT EXISTS test (
+            CREATE TABLE IF NOT EXISTS weight (
                 id INTEGER PRIMARY KEY,
-                value REAL,
+                value FLOAT,
                 created_at TEXT
             )
         """)
